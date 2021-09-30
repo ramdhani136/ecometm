@@ -1,0 +1,11 @@
+.promoLeft {
+    width: 250px;
+    padding-left: 40px;
+    font-family: 'calibri';
+}
+
+.promoRight {
+    width: 70%;
+    padding-right: 40px;
+    padding-left: 40px;
+}

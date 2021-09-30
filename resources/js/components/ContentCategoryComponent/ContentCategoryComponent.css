@@ -1,0 +1,11 @@
+.CategoryContainer {
+    width: 94%;
+    min-height: 230px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-bottom: solid 1px #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    font-family: calibri;
+
+}

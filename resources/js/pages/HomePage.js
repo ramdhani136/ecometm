@@ -1,7 +1,9 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import ContentCategoryComponent from '../components/ContentCategoryComponent/ContentCategoryComponent'
 import Banner from '../components/Home/Banner'
 import Header from '../components/Home/Header/Header'
+import PromoComponent from '../components/PromoComponent/PromoComponent'
 
 function HomePage() {
 
@@ -77,8 +79,14 @@ function HomePage() {
             </Helmet>
             <Header />
             <div style={{ width: '100%', marginTop: 15 }}>
-                <Banner />
+                {/* <Banner /> */}
+                <PromoComponent />
+                <ContentCategoryComponent name="Accessories" data={itemAcc} />
+                <ContentCategoryComponent name="Kain Polos" data={kp} />
             </div>
+            <a href="https://api.whatsapp.com/send?phone=6289637428874&text=Pesan dari store.ekatunggal.com!" target="_blank">
+                <img style={{ cursor: 'pointer', width: '60px', height: '60px', position: 'fixed', right: 20, bottom: 30, borderRadius: '100%', boxShadow: '2px 2px 2px rgba(0,0,0,0.8)' }} src="https://www.freeiconspng.com/uploads/logo-whatsapp-png-transparent-background-8.png" />
+            </a>
         </div>
     )
 }

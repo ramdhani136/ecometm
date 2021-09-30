@@ -18,15 +18,15 @@ function Header() {
     return (
         <div className="container">
             <div className="SecHeader">
-                <a style={{ marginLeft: 40 }}>Download app</a>
+                <a style={{ marginLeft: 50 }}>Download app</a>
                 <a>Get Discount</a>
                 <a>Branch</a>
                 <a>Help</a>
             </div>
             <div className="mainHeader">
                 <div className="headerKiri">
-                    <img onClick={toHome} style={{ width: '130px', height: '45px', cursor: 'pointer' }} src="https://assets.bukalapak.com/sigil/bukalapak-logo-primary.svg" />
-                    {/* <div style={{ cursor: 'pointer' }} onClick={toHome} className="logo">ETMstore</div> */}
+                    <img onClick={toHome} style={{ width: '60px', height: '60px', cursor: 'pointer', marginTop: -5 }} src="https://www.ekatunggal.com/wp-content/uploads/2020/11/logoslider02.png" />
+                    <div style={{ cursor: 'pointer' }} onClick={toHome} className="logo">ETMstore</div>
                     <div style={{ cursor: 'pointer' }} onClick={toAbout} className="link">About</div>
                     <Link to="/about" className="link">Categories</Link>
                     <Link to="/about" className="link">Contact Us</Link>
