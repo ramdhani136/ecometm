@@ -85,7 +85,7 @@ function HomePage() {
                 <ContentCategoryComponent name="Kain Polos" data={kp} />
             </div>
             <a href="https://api.whatsapp.com/send?phone=6289637428874&text=Pesan dari store.ekatunggal.com!" target="_blank">
-                <img style={{ cursor: 'pointer', width: '60px', height: '60px', position: 'fixed', right: 20, bottom: 30, borderRadius: '100%', boxShadow: '2px 2px 2px rgba(0,0,0,0.8)' }} src="https://www.freeiconspng.com/uploads/logo-whatsapp-png-transparent-background-8.png" />
+                <img style={{ objectFit: 'contain', cursor: 'pointer', width: '200px', height: '80px', position: 'fixed', right: 5, bottom: 20, }} src="https://homeliftcraft.co.za/wp-content/uploads/2019/04/Chat-with-us-on-Whatsapp.png?w=640" />
             </a>
         </div>
     )

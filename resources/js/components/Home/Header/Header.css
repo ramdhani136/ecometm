@@ -8,7 +8,6 @@
     z-index: 1000;
     align-items: center;
     font-family: 'Hind Madurai', sans-serif;
-
     box-shadow: 1px 1px 5px 0px #ccc;
 }
 
@@ -16,7 +15,7 @@
 .SecHeader{
     border-bottom:solid 1px #c70000;
     width:100%;
-    height: 45px;
+    height: 40px;
     background-color: #de0000;
     display: flex;
     flex-direction: row;
@@ -51,6 +50,16 @@
     margin-right: 3%;
 }
 
+.headerKanan{
+    width:auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3%;
+}
+
+
+
 
 
 .logo {
@@ -72,26 +81,59 @@
     align-items: center;
     margin-top: 7px;
     font-family: 'Hind Madurai', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.input {
-    margin-top: 2px;
-    border: solid 1px #ddd;
-    width: 30%;
-    padding: 12px;
-    border-radius: 3px;
-    margin-left: 30px;
-    color:#666;
-    font-size: 0.9em;
-
+.link:hover{
+    color: #c70000;
 }
+
 
 .input::-webkit-input-placeholder {
     color: #ddd;
     font-family: calibri;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .input:focus {
-    outline-color: #ccc;
+    outline-color: #fff;
+}
+
+
+.searchContainer{
+    width: 35%;
+    height: 40px;
+    border: solid 1px #c4c6ca;
+    border-radius: 3px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+  
+}
+
+
+.input {
+    flex:1;
+    color:#666;
+    font-size: 0.9em;
+    margin-left: 10px;
+    margin-right: 10px;
+    border:none;
+    font-weight: 300;
+}
+
+
+.btnSearch{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 1px #ddd;
+    cursor:pointer;
 }

@@ -6,11 +6,14 @@ require('./PromoComponent.css');
 function PromoComponent() {
     return (
         <div style={{
-            display: 'flex', alignItems: 'center', marginTop: 10, marginBottom: 20, width: '100%', height: 'auto', paddingTop: '80px', paddingBottom: '80px', backgroundColor: '#EBECF2'
+            borderTop: 'solid 1px #fdefef', borderBottom: 'solid 1px #fdefef', display: 'flex', alignItems: 'center', marginTop: -7, marginBottom: 20, width: '100 % ', height: 'auto', paddingTop: '60px', paddingBottom: '60px', backgroundColor: '#fdf9f9'
         }}>
             <div className="promoLeft">
-                <h2 style={{ color: '#141414', fontSize: '2em', marginBottom: '80px' }}>Promo Oktober</h2>
-                <h3 style={{ fontSize: '24px', fontSize: '1.5em' }}>Diskon tiap hari sampai 70%!</h3>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <h2 style={{ flex: 1, color: '#141414', fontSize: '2.4em', marginTop: -8, }}>Promo Oktober</h2>
+                    <img style={{ objectFit: 'cover', width: '95px', height: '100px', marginTop: -35, }} src="https://www.ekatunggal.com/wp-content/uploads/2020/11/logoslider01.png" />
+                </div>
+                <h3 style={{ fontSize: '24px', fontSize: '1.5em' }}>Diskon tiap hari sampai 30%!</h3>
                 <div style={{ fontSize: '1.1em' }}>Mau nikmatin Potongan Harga?
                     Yuk Request dulu Kuponmu!</div>
                 <div style={{ backgroundColor: '#fff', width: 'auto', paddingTop: '13px', paddingBottom: '13px', marginTop: 20, textAlign: 'center', color: '#de0000', borderRadius: 3, cursor: 'pointer', border: 'solid 2px #de0000', fontWeight: 'bold' }}>Minta Kupon Dong</div>

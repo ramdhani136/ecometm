@@ -9,8 +9,8 @@ import HomePage from '../pages/HomePage';
 
 function Router() {
     return (
-        // <BrowserRouter basename={'/ecometm/public'}>
-        <BrowserRouter>
+        <BrowserRouter basename={'/ecometm/public'}>
+            {/* // <BrowserRouter> */}
             <Switch>
                 <Route exact={true} path="/" component={HomePage} />
                 <Route path="/view/item" component={ContenViewItem} />
