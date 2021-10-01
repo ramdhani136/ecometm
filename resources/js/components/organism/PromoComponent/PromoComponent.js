@@ -1,5 +1,6 @@
 import React from 'react'
-import ListPromoComponent from '../ListPromoComponent/ListPromoComponent';
+import ListPromoComponent from '../../moleculs/ListPromoComponent/ListPromoComponent';
+
 require('./PromoComponent.css');
 
 

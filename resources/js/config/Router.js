@@ -4,7 +4,7 @@ import {
     Switch,
     Route,
 } from "react-router-dom";
-import ContenViewItem from '../components/ContentViewItem/ContentViewItem';
+import ContenViewItem from '../components/organism/ContentViewItem/ContentViewItem';
 import HomePage from '../pages/HomePage';
 
 function Router() {

@@ -1,10 +1,11 @@
 import React from 'react';
-import ListCategory from '../ListCategory/ListCategory';
-require('./ContentCategoryComponent.css');
+
+require('./ContentCategory.css');
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ListCategory from '../../moleculs/ListCategory/ListCategory';
 
 
-function ContentCategoryComponent({ name, data }) {
+function ContentCategory({ name, data }) {
     return (
         <div className="CategoryContainer">
             <h1 style={{ fontSize: '1.6em' }}>{name}</h1>
@@ -20,4 +21,4 @@ function ContentCategoryComponent({ name, data }) {
     )
 }
 
-export default ContentCategoryComponent
+export default ContentCategory

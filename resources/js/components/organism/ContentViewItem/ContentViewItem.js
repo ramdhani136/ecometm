@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Header from '../Home/Header/Header';
+import Header from '../Header/Header';
+
 require('./ContentViewItem.css');
 
 function ContenViewItem() {
@@ -40,7 +41,7 @@ function ContenViewItem() {
                 </div>
 
                 <a href="https://api.whatsapp.com/send?phone=6289637428874&text=Pesan dari store.ekatunggal.com!" target="_blank">
-                    <img style={{ objectFit: 'contain', cursor: 'pointer', width: '200px', height: '80px', position: 'fixed', right: 5, bottom: 20, }} src="https://homeliftcraft.co.za/wp-content/uploads/2019/04/Chat-with-us-on-Whatsapp.png?w=640" />
+                    <img style={{ zIndex: 100, objectFit: 'contain', cursor: 'pointer', width: '200px', height: '80px', position: 'fixed', right: 5, bottom: 20, }} src="https://homeliftcraft.co.za/wp-content/uploads/2019/04/Chat-with-us-on-Whatsapp.png?w=640" />
                 </a>
             </div>
         </>

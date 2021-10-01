@@ -1,9 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import ContentCategoryComponent from '../components/ContentCategoryComponent/ContentCategoryComponent'
-import Banner from '../components/Home/Banner'
-import Header from '../components/Home/Header/Header'
-import PromoComponent from '../components/PromoComponent/PromoComponent'
+
+import Banner from '../components/organism/Banner'
+import Header from '../components/organism/Header/Header'
+import PromoComponent from '../components/organism/PromoComponent/PromoComponent'
+import ContentCategory from '../components/organism/ContentCategory/ContentCategory'
 
 function HomePage() {
 
@@ -81,11 +82,11 @@ function HomePage() {
             <div style={{ width: '100%', marginTop: 15 }}>
                 {/* <Banner /> */}
                 <PromoComponent />
-                <ContentCategoryComponent name="Accessories" data={itemAcc} />
-                <ContentCategoryComponent name="Kain Polos" data={kp} />
+                <ContentCategory name="Accessories" data={itemAcc} />
+                <ContentCategory name="Kain Polos" data={kp} />
             </div>
             <a href="https://api.whatsapp.com/send?phone=6289637428874&text=Pesan dari store.ekatunggal.com!" target="_blank">
-                <img style={{ objectFit: 'contain', cursor: 'pointer', width: '200px', height: '80px', position: 'fixed', right: 5, bottom: 20, }} src="https://homeliftcraft.co.za/wp-content/uploads/2019/04/Chat-with-us-on-Whatsapp.png?w=640" />
+                <img style={{ objectFit: 'contain', cursor: 'pointer', width: '200px', height: '80px', position: 'fixed', right: 5, bottom: 20, zIndex: 100 }} src="https://homeliftcraft.co.za/wp-content/uploads/2019/04/Chat-with-us-on-Whatsapp.png?w=640" />
             </a>
         </div>
     )
